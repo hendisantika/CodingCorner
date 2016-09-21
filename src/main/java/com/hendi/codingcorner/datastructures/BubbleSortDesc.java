@@ -15,10 +15,10 @@ public class BubbleSortDesc {
 
     public static void main(String[] args) {
         int arrayList[] = {3, 5, 7, 9, 1, 8};
-        System.out.println("\nFinal result:" + Arrays.toString(CrunchifyBubbleSortDescMethod(arrayList)));
+        System.out.println("\nFinal result:" + Arrays.toString(BubbleSortDesc(arrayList)));
     }
 
-    public static int[] CrunchifyBubbleSortDescMethod(int[] arr) {
+    public static int[] BubbleSortDesc(int[] arr) {
         int temp;
         for (int i = 0; i < arr.length - 1; i++) {
 
