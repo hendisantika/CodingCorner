@@ -16,10 +16,10 @@ public class BubbleSortAsc {
     public static void main(String[] args) {
 
         int arrayList[] = {5, 3, 9, 7, 1, 8};
-        System.out.println("\nFinal result:" + Arrays.toString(CrunchifyBubbleSortAsceMethod(arrayList)));
+        System.out.println("\nFinal result:" + Arrays.toString(BubbleSortAsc(arrayList)));
     }
 
-    public static int[] CrunchifyBubbleSortAsceMethod(int[] arr) {
+    public static int[] BubbleSortAsc(int[] arr) {
         int temp;
         for (int i = 0; i < arr.length - 1; i++) {
 
